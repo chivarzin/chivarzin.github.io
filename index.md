@@ -7,7 +7,14 @@ title: chivarzin.ru
 ## Вход в почту
 
 <div>
-{% include mail_login.html %}
+<form method="post" action="https://auth.mail.ru/cgi-bin/auth?lang=ru_RU">
+    <input name="Login" type="text" value="" placeholder="Имя ящика">@chivarzin.ru
+    <br>
+    <input autocomplete="off" type="password"  name="Password" value="" placeholder="Пароль"> <a href="./restore-password">Забыли пароль?</a>
+    <br>
+    <input type="submit" value="Войти">
+    <input type="hidden" name="Domain" value="chivarzin.ru">
+  </form>
 </div>
 
 ------------------
