@@ -19,4 +19,5 @@ title: chivarzin.ru
 
 ------------------
 
+Администратор домена: [Чиварзин Александр Евгеньевич](https://Aleksandr.Chivarzin.RU)
 По всем вопросам писать на почту <a href="mailto:admin@chivarzin.ru">admin@chivarzin.ru
